@@ -1,0 +1,24 @@
+root      2563     2  1 16:16 ?        00:00:01 [kworker/2:1]
+root      2606     1  0 Oct03 ?        00:03:23 /usr/lib/systemd/systemd-journald
+root      2636     1  0 Oct03 ?        00:00:00 /usr/sbin/lvmetad -f
+root      2639     2  0 Oct03 ?        00:00:04 [kworker/5:1H]
+root      2649     2  0 Oct03 ?        00:00:00 [rpciod]
+root      2650     2  0 Oct03 ?        00:00:00 [xprtiod]
+root      2653     2  0 Oct03 ?        00:00:00 [ksgxswapd]
+root      2670     1  0 Oct03 ?        00:00:18 /usr/lib/systemd/systemd-udevd
+djd240    2939  1868  1 16:17 pts/0    00:00:01 vim my_pthread.c
+rbk70     2968 27028  0 16:17 pts/2    00:00:00 /ilab/users/rbk70/citizenship.io/env/bin/python3 /ilab/users/rbk70/citizenship.io/env/bin/flask run
+root      3002  5641  0 16:17 ?        00:00:00 sleep 60
+root      3131     2  0 16:17 ?        00:00:00 [kworker/6:2H]
+root      3213  2670  0 16:18 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+rbk70     3220 27028  0 16:18 pts/2    00:00:00 ps -fA
+rbk70     3221 27028  0 16:18 pts/2    00:00:00 grep --color=auto python3 -9
+rbk70     4131     1  0 14:05 ?        00:00:36 /usr/bin/pulseaudio --start --log-target=syslog
+root      4284     1  0 Oct29 ?        00:00:02 /usr/sbin/sshd -D
+root      4531     2  0 Oct03 ?        00:00:00 [kvm-irqfd-clean]
+root      4742     2  0 Oct03 ?        00:00:00 [xfs-buf/sda4]
+root      4746     2  0 Oct03 ?        00:00:00 [xfs-data/sda4]
+root      4748     2  0 Oct03 ?        00:00:00 [xfs-conv/sda4]
+root      4753     2  0 Oct03 ?        00:00:00 [xfs-cil/sda4]
+root      4760     2  0 Oct03 ?        00:00:00 [xfs-reclaim/sda]
+root      4761     2  0 Oct03 ?        00:00:00 [xfs-buf/sda2]
