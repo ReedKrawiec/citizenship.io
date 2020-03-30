@@ -8,3 +8,4 @@ backend/build
 *~
 __pycache__
 .vscode
+env
