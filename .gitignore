@@ -6,5 +6,6 @@ backend/build
 *.swp
 *.swo
 *~
+env
 __pycache__
 .vscode
