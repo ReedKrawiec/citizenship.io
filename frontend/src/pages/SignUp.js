@@ -65,6 +65,10 @@ class Signup extends Component {
           style={{ flexGrow: 2 }}
         >
           <h1>SIGNUP</h1>
+          <h1> ALL DATA IS PUBLIC </h1>
+          <h1> DO NOT ENTER ANY IDENTIFYING DATA / REAL DATA </h1>
+          <h1> Demo Account </h1>
+          <h1>email: demo@demo.com | password: demo </h1>
           <input
             className="input"
             onChange={this.handleChangeEmail}

@@ -44,7 +44,6 @@ def create_user(email,password):
     db.session.commit()
     return True
 
-<<<<<<< HEAD
 def answer(user_id,question_id,answer,correct):
     condition = True
     response_id = 0
@@ -57,8 +56,6 @@ def answer(user_id,question_id,answer,correct):
     db.session.commit()
     return True
 
-=======
->>>>>>> 93e1ce098685702539a3a5453c4f97af13391bc3
 def logout(passed_token):
     token_instance = Token.query.filter_by(value = passed_token).first()
     if token_instance is None:

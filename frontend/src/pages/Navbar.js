@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 class Navbar extends Component {
   constructor(){
     super();
-    console.log('test');
   }
   handleLogout() {
     let headers = {};
@@ -25,7 +24,6 @@ class Navbar extends Component {
        })
       }
       else{
-        console.log("testewr");
       }
     })
   }
@@ -57,9 +55,6 @@ class Navbar extends Component {
      <div className="full-width navbar justified-left">
          <Link className="lightpadding navbar-item" to="/en/quiz" >
           <span>Quiz</span>
-         </Link>
-         <Link className="lightpadding navbar-item" to="/en/aboutus" >
-           <span>About Us</span>
          </Link>
          {get_right_component(this.props.login_state)}
      </div>)

@@ -1,15 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap');
-.grid, .grid-responsive {
+
+.grid,
+.grid-responsive {
   flex-direction: column;
   display: flex;
   justify-items: flex-start;
   align-items: flex-start;
 }
-.grid .row, .grid-responsive .row {
+
+.grid .row,
+.grid-responsive .row {
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-items: flex-start;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height:100vh;
+}
+
+.about_text {
+  font-size: 2em;
+  max-width: 1000px;
+  text-indent: 2em;
+  line-height: 1.5;
+  color: #fff;
+  outline: solid 1em yellow;
+  padding: 2em;
+}
+
+@media only screen and (max-width: 900px) {
+  .about_text{
+    font-size:1.2em;
+  }
+}
+
+.about_header {
+  font-size: 4em;
 }
 
 .col-1-12 {
@@ -161,35 +193,42 @@
     width: 100%;
   }
 }
+
 * {
   box-sizing: border-box;
 }
 
-.navbar{
-  position:absolute;
-  font-size:1.3em;
+.navbar {
+  position: absolute;
+  font-size: 1.3em;
 }
 
-.navbar-item{
-  color:white;
+.navbar-item {
+  color: white;
   text-decoration: none;
 }
-.navbar-item-login{
-  margin-left:auto;
-  margin-right:1em;
+
+.navbar-item-login {
+  margin-left: auto;
+  margin-right: 1em;
 }
-.navbar-item:hover{
+
+.navbar-item:hover {
   text-decoration: underline;
 }
-.nav-auth:hover{
+
+.nav-auth:hover {
   text-decoration: none;
 }
-.nav-logout{
-  margin-left:1em;
+
+.nav-logout {
+  margin-left: 1em;
 }
-.nav-logout:hover{
+
+.nav-logout:hover {
   text-decoration: underline;
 }
+
 .padded {
   padding: 5em;
 }
@@ -212,19 +251,21 @@
   border: 0px solid rgba(23, 34, 66, 0.2);
   width: 100%;
 }
+
 .button:hover {
   border: 10px solid rgba(23, 34, 66, 0.4);
   border-radius: 2em;
 }
 
-.wrong{
-  opacity:0.6;
+.wrong {
+  opacity: 0.6;
   border: 10px solid rgba(23, 34, 66, 0.4);
   border-radius: 2em;
-  cursor:initial;
+  cursor: initial;
 }
-.correct{
-  background-color:#04bd0d !important;
+
+.correct {
+  background-color: #04bd0d !important;
   border: 10px solid rgba(23, 34, 66, 0.4);
   border-radius: 2em;
 }
@@ -236,7 +277,7 @@ html {
 
 body {
   min-height: 100%;
-  margin:0;
+  margin: 0;
 }
 
 .width-90 {
@@ -256,8 +297,8 @@ body {
   max-width: 50em;
 }
 
-.full-page{
-  min-height:100vh;
+.full-page {
+  min-height: 100vh;
 }
 
 .banner {
@@ -377,8 +418,8 @@ h1 {
   background-color: #bf2626;
 }
 
-.yellow{
-  background-color:#fcba03;
+.yellow {
+  background-color: #fcba03;
 }
 
 .darkblue {

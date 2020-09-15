@@ -59,6 +59,8 @@ class Login extends Component {
           style={{ flexGrow: 2 }}
         >
           <h1>Login</h1>
+          <h1> Demo Account </h1>
+          <h1>email: demo@demo.com | password: demo </h1>
           <input
             className="input"
             onChange={this.handleChangeEmail}
